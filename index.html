@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Encriptador</title>
+    </head>
+    <body>
+        <header class="caixa">
+            
+            <div>
+                <img src="./imagens/Logo.png" alt="Logo da alura">
+                
+            </div>
+        </header>
+        <main class="main">
+            <section class="inicial-texto">
+                <textarea class="input-texto" cols="26" rows="8" placeholder="Digite o seu texto para ser encriptado"></textarea>
+
+                <h6 class="informacao">Usar apenas letras minusculas, sem acentos.</h6>
+                <div class="botoes">
+
+                    <button class="encriptar" onclick="btnEncriptar()">
+                        Criptografar
+                    </button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">
+                        Desencriptografar
+                    </button>
+
+
+                </div>
+
+            </section>
+
+            
+           
+            <section>
+                
+                
+
+                <div class="textarea-container">
+
+                    <textarea class="mensagem" id="mensagem" cols="26" rows="14"></textarea>
+                    <button class="copiar" onclick="btnCopiar()">
+                        copiar
+                    </button>
+                </div>
+                              
+            </section>
+
+        </main>
+
+        <script src="encrip_script.js"></script>
+        
+
+        
+
+        
+    </body>
+</html>
